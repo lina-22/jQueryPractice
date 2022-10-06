@@ -1,17 +1,12 @@
-// avec js we search the value of attribute
-// var myattr = document.querySelector("a").getAttribute("href");
-// console.log(myattr);
+// $("h1").css("color","red");
+// $("h1").css("font-size","3rem");
 
-// ************now avec jquery:
 
-// $("a").attr("herf");
+// Json file
+// $("h1").css({"font-size":"3rem","color":"green"});
 
-// *****remove attr
-// $("a").removeAttr("href");
+// normal Js
+// document.querySelector("h1").classList.add("style1")
 
-// **********change the attr
-
-// document.querySelector("a").setAttribute("href", "https://www.w3schools.com/");
-
-// **********change the attr with jquery
-$("a").attr("href", "https://www.w3schools.com/");
+//apply Jquery
+$("h1").addClass("style1 style2");
